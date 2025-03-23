@@ -1,24 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Koleksiyon Platform
 
-## Getting Started
+Bu proje, kullanıcıların kendi koleksiyonlarını oluşturup yönetebilecekleri modern bir web uygulamasıdır.
 
-First, run the development server:
+## Özellikler
+
+- 🔐 Güvenli kullanıcı girişi ve kayıt sistemi
+- 📱 Responsive tasarım
+- 🎨 Modern ve kullanıcı dostu arayüz
+- 📦 Koleksiyon oluşturma ve düzenleme
+- 🔍 Gelişmiş filtreleme ve arama özellikleri
+
+## Teknolojiler
+
+- Next.js 15.2.3
+- TypeScript
+- Tailwind CSS
+- NextAuth.js
+
+## Başlangıç
+
+Projeyi yerel ortamınızda çalıştırmak için:
 
 ```bash
+# Bağımlılıkları yükleyin
+npm install
+
+# Geliştirme sunucusunu başlatın
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Uygulama varsayılan olarak [http://localhost:3000](http://localhost:3000) adresinde çalışacaktır.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Katkıda Bulunma
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Bu repository'yi fork edin
+2. Feature branch'i oluşturun (`git checkout -b feature/amazing-feature`)
+3. Değişikliklerinizi commit edin (`git commit -m 'Add some amazing feature'`)
+4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
+5. Pull Request oluşturun
+
+## Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır.
 
 ## Learn More
 
