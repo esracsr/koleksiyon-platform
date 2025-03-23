@@ -2,24 +2,44 @@
 
 Bu proje, kullanıcıların kendi koleksiyonlarını oluşturup yönetebilecekleri modern bir web uygulamasıdır.
 
-## Özellikler
+## Gerçekleştirilen Gereksinimler ✅
 
-- 🔐 Güvenli kullanıcı girişi ve kayıt sistemi
-- 📱 Responsive tasarım
-- 🎨 Modern ve kullanıcı dostu arayüz
-- 📦 Koleksiyon oluşturma ve düzenleme
-- 🔍 Gelişmiş filtreleme ve arama özellikleri
+1. **Teknoloji Seçimleri**
+   - Next.js framework'ü başarıyla kullanıldı
+   - TypeScript ile tip güvenliği sağlandı
+   - Tailwind CSS ile modern ve responsive tasarım uygulandı
+   - NextAuth.js ile kimlik doğrulama sistemi entegre edildi
 
-## Teknolojiler
+2. **Login Sayfası**
+   - Email ve şifre alanları içeren form oluşturuldu
+   - NextAuth.js entegrasyonu yapıldı
+   - Hata mesajları için gerekli kontroller eklendi
+   - Başarılı girişte koleksiyon listesine yönlendirme sağlandı
 
-- Next.js 15.2.3
-- TypeScript
-- Tailwind CSS
-- NextAuth.js
+3. **Koleksiyonlar Sayfası**
+   - Koleksiyonların listelendiği tablo görünümü oluşturuldu
+   - "Sabitleri Düzenle" butonu ve yönlendirmesi eklendi
 
-## Başlangıç
+4. **Koleksiyon Listesi Düzenleme Ekranı**
+   - Sürükle-bırak (drag-and-drop) özelliği eklendi
+   - Filtreleme paneli oluşturuldu
+   - Kaydet ve Vazgeç butonları eklendi
+   - Modal ile request gösterimi sağlandı
 
-Projeyi yerel ortamınızda çalıştırmak için:
+## Farklılaştığımız Noktalar 🔄
+
+1. **State Yönetimi**
+   - İstenen: Zustand veya Redux
+   - Uygulanan: Context API
+   - Gerekçe: Context API konusunda daha deneyimli olduğum için ve projenin ölçeği için yeterli olacağını düşündüğüm için bu tercihi yaptım.
+
+## Eksik Kalan Gereksinimler ⚠️
+
+1. **Dockerizasyon**
+   - Docker ve Docker Compose yapılandırması henüz tamamlanmadı
+   - Local deployment için gerekli dosyalar eklenmedi
+
+## Kurulum ve Çalıştırma
 
 ```bash
 # Bağımlılıkları yükleyin
@@ -30,6 +50,7 @@ npm run dev
 ```
 
 Uygulama varsayılan olarak [http://localhost:3000](http://localhost:3000) adresinde çalışacaktır.
+
 
 ## Katkıda Bulunma
 
